@@ -1,0 +1,41 @@
+
+name: Repository Validation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Check Required Folders
+        run: |
+          test -d docs
+          test -d evidence
+          test -d malware
+          test -d scripts
+          test -d timeline
+          test -d reports
+
+      - name: Check Required Files
+        run: |
+          test -f README.md
+          test -f docs/first_responder_SOP.md
+          test -f docs/evidence_collection.md
+          test -f malware/fake_ransomware.py
+
+      - name: Validate Python Syntax
+        run: |
+          python -m py_compile malware/fake_ransomware.py
+          python -m py_compile scripts/generate_hash.py
+          python -m py_compile scripts/create_timeline.py
+
+      - name: Validation Complete
+        run: echo "Repository validation successful!"
