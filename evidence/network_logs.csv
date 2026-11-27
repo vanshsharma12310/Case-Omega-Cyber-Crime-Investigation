@@ -1,0 +1,7 @@
+
+Timestamp,Source_IP,Destination_IP,Protocol,Activity
+18-11-2026 09:02,192.0.2.10,192.0.2.20,TCP,Internal login traffic
+18-11-2026 09:07,192.0.2.15,192.0.2.20,TCP,USB activity alert
+18-11-2026 09:11,192.0.2.20,192.0.2.45,HTTPS,Suspicious outbound connection
+18-11-2026 09:16,192.0.2.20,192.0.2.30,TCP,Unusual file activity
+18-11-2026 09:24,192.0.2.20,192.0.2.1,TCP,Network isolation
