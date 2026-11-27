@@ -1,0 +1,8 @@
+
+Timestamp,Event,Source
+18-11-2026 09:02:15,Unusual login activity,System Logs
+18-11-2026 09:07:30,USB device connected,System Logs
+18-11-2026 09:11:20,Suspicious outbound connection,System Logs
+18-11-2026 09:16:10,Multiple file rename alerts,System Logs
+18-11-2026 09:20:00,Ransom note reported,System Logs
+18-11-2026 09:24:15,Workstation isolated,System Logs
