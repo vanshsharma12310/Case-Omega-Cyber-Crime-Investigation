@@ -1,0 +1,7 @@
+
+Evidence_ID,Description,Source,Collection_Date,Status
+E-001,Hospital Server Logs,Server,18-11-2026,Collected
+E-002,Network Logs,Firewall,18-11-2026,Collected
+E-003,USB Device Records,Workstation WS-07,18-11-2026,Collected
+E-004,Simulated Server Image,Server,18-11-2026,Simulated
+E-005,Login Records,Workstation WS-07,18-11-2026,Collected
