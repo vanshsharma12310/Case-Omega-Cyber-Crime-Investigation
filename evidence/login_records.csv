@@ -1,0 +1,7 @@
+
+Timestamp,Username,Hostname,Login_Status,Remarks
+18-11-2026 08:45,admin,OMEGA-SRV-01,Success,Normal login
+18-11-2026 09:02,unknown_user,WS-07,Success,Unusual login
+18-11-2026 09:05,staff01,WS-08,Success,Normal login
+18-11-2026 09:12,admin,OMEGA-SRV-01,Failed,Failed authentication
+18-11-2026 09:22,admin,OMEGA-SRV-01,Success,Investigation access
