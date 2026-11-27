@@ -1,0 +1,17 @@
+
+CASE OMEGA - SYSTEM EVENT LOGS
+
+Date: 18-11-2026
+System: OMEGA-SRV-01
+Environment: Simulated Hospital Network
+
+09:02:15 - Unusual login activity detected.
+09:07:30 - USB storage device connected to WS-07.
+09:09:45 - Suspicious file execution reported.
+09:11:20 - Outbound network connection detected.
+09:16:10 - Multiple file rename alerts generated.
+09:18:40 - Unusual system activity detected.
+09:20:00 - Ransom note reported by IT staff.
+09:24:15 - Workstation WS-07 isolated from network.
+
+All events are synthetic and created for academic purposes.
