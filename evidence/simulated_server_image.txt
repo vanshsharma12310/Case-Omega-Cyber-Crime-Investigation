@@ -1,0 +1,17 @@
+
+CASE OMEGA - SIMULATED SERVER EVIDENCE
+
+Evidence ID: E-004
+System: Fictional Omega Care Hospital Server
+Hostname: OMEGA-SRV-01
+Operating System: Windows Server (Simulated)
+Incident Date: 18-11-2026
+
+This file represents a synthetic evidence placeholder.
+It is NOT a real forensic disk image.
+
+Purpose:
+Academic simulation of digital evidence acquisition
+and SHA-256 integrity verification.
+
+No real hospital data is contained in this file.
